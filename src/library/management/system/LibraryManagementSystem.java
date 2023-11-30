@@ -21,6 +21,9 @@ public class LibraryManagementSystem extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
+          scene.getStylesheets().add(getClass().getResource("library.css").toExternalForm());
+
+        
         
         stage.setScene(scene);
         stage.show();

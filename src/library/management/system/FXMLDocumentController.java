@@ -1,34 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXML2.java to edit this template
- */
 package library.management.system;
 
-import java.net.URL;
-import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Label;
+import javafx.scene.control.Button;
+import javafx.scene.layout.AnchorPane;
 
-/**
- *
- * @author Rakibur Rahman
- */
-public class FXMLDocumentController implements Initializable {
-    
+public class FXMLDocumentController {
+
     @FXML
-    private Label label;
-    
+    private Button Admin;
     @FXML
-    private void handleButtonAction(ActionEvent event) {
-        System.out.println("You clicked me!");
-        label.setText("Hello World!");
+    private Button Student;
+    @FXML
+    private AnchorPane background;
+    @FXML
+    private AnchorPane anchorpane2;
+
+    @FXML
+    private void Admin(ActionEvent event) {
+        System.out.println("Admin button clicked!");
     }
-    
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
-        // TODO
-    }    
-    
+
+    @FXML
+    private void Student(ActionEvent event) {
+        System.out.println("Student button clicked!");
+    }
 }
