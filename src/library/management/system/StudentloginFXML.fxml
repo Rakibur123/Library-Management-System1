@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane id="AnchorPane" fx:id="studentlogin" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/20.0.1" fx:controller="library.management.system.StudentloginFXMLController">
+   <children>
+      <Text layoutX="131.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student name" />
+      <TextField layoutX="226.0" layoutY="109.0" />
+      <PasswordField layoutX="226.0" layoutY="152.0" />
+      <Text fx:id="studentPassword" layoutX="144.0" layoutY="169.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="290.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="login " />
+   </children>
+</AnchorPane>

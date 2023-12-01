@@ -16,3 +16,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     -fx-background-color: #66ff66 ;
 }
 
+#Login{
+    
+   -fx-background-color:linear-gradient(to bottom right, #252d50, #324f6b);
+}
+#studentlogin{
+    
+   -fx-background-color:linear-gradient(to bottom right, #252d50, #324f6b);
+}
