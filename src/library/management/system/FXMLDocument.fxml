@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="464.0" prefWidth="628.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.management.system.FXMLDocumentController">
-   <children>
-      <AnchorPane fx:id="anchorpane2" layoutX="130.0" layoutY="49.0" prefHeight="339.0" prefWidth="392.0">
-         <children>
-            <Button fx:id="Admin" layoutX="54.0" layoutY="170.0" mnemonicParsing="false" onAction="#Admin" prefHeight="46.0" prefWidth="81.0" text="Admin" />
-            <Button fx:id="Student" layoutX="244.0" layoutY="180.0" mnemonicParsing="false" onAction="#Student" text="Student" />
-         </children>
-      </AnchorPane>
-   </children>
-</AnchorPane>
+<StackPane xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="library.management.system.FXMLDocumentController">
+    <children>
+        <AnchorPane fx:id="Anchorebackground1" prefHeight="200.0" prefWidth="200.0">
+            <children>
+                <AnchorPane fx:id="Anchorpane" layoutX="14.0" layoutY="15.0" prefHeight="347.0" prefWidth="570.0">
+                    <children>
+                        <Label fx:id="Label" layoutX="185.0" layoutY="67.0" text="Sign in your account">
+                            <font>
+                                <Font name="System Bold" size="25.0" />
+                            </font>
+                        </Label>
+                        <ComboBox fx:id="combBox" layoutX="246.0" layoutY="122.0" prefWidth="150.0" />
+                        <TextField fx:id="username" layoutX="225.0" layoutY="162.0" prefHeight="25.0" prefWidth="192.0" />
+                        <Text layoutX="121.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name/User ID:" />
+                        <PasswordField fx:id="password" layoutX="225.0" layoutY="198.0" onAction="#handlepassword" prefHeight="25.0" prefWidth="192.0" />
+                        <Text layoutX="146.0" layoutY="215.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" />
+                        <Button fx:id="signin" layoutX="295.0" layoutY="268.0" mnemonicParsing="false" onAction="#btnsignin" text="Sign in" />
+                    </children>
+                </AnchorPane>
+                <Button fx:id="close" layoutX="552.0" layoutY="2.0" mnemonicParsing="false" onAction="#btnclose" text="Close" />
+            </children>
+        </AnchorPane>
+    </children>
+</StackPane>

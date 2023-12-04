@@ -7,20 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     Author     : Rakibur Rahman
 */
 
-#background{
+#Anchorebackground1{
     
-  -fx-background-color:linear-gradient(to bottom right, #252d50, #324f6b);
-}
-#anchorpane2{
-    
-    -fx-background-color: #66ff66 ;
-}
-
-#Login{
-    
-   -fx-background-color:linear-gradient(to bottom right, #252d50, #324f6b);
-}
-#studentlogin{
-    
-   -fx-background-color:linear-gradient(to bottom right, #252d50, #324f6b);
+    -fx-background-color: #99ff99;
 }
