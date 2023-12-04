@@ -22,6 +22,6 @@ public class AdmindashboardFXMLController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        // Initialization code for Admin Dashboard
+        // /Initialization code for Admin Dashboard
     }
 }
